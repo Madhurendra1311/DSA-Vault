@@ -1,6 +1,7 @@
 // leetcode link: https://leetcode.com/problems/subarray-sum-equals-k/description/
 
 // Approach: 1
+//Prefix sum
 var subarraySum = function (nums, k) {
     // Size of the array
     let n = nums.length;
@@ -32,6 +33,7 @@ var subarraySum = function (nums, k) {
 };
 
 // Approach: 2
+//Prefix sum
 var subarraySum = function (nums, k) {
     // Size of the array
     let n = nums.length;
